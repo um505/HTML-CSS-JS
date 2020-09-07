@@ -1,0 +1,228 @@
+@media screen and (min-width: 481px) {
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.picback {
+    display: flex;
+    background-image: url("../img/traffic.jpg");
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 3.5vw;
+    color: white;
+    padding: 2%;
+}
+
+.fillform {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form {
+    display: flex;
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+    opacity: 0.8;
+    margin-top: 5%;
+    flex-direction: column;
+}
+
+.headingsmall {
+    display: flex;
+    font-size: 3.5vw;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 15vw;
+    font-size: 1.5vw;
+    margin-top: 5%;
+    padding-left: 20%;
+    width: 80%;
+
+
+
+}
+
+.name,
+.age,
+.country,
+.horsepower {
+    width: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.name,
+.age,
+.country,
+.horsepower,
+input {
+    width: 50%;
+    height: 30%;
+}
+
+.country select {
+    width: 50%;
+    height: 37%;
+}
+
+.calctab {
+    display: flex;
+    flex-wrap: wrap;
+    height: 15vw;
+    padding-left: 10%;
+    width: 80%;
+    justify-content: center;
+}
+
+#button {
+    color: white;
+    background-color: #4A9236;
+    width: 38%;
+    font-size: 4vw;
+    border-radius: 1vw;
+
+    padding-top: 0;
+}
+
+#result {
+    padding-top: 7%;
+    color: #4A9236;
+    font-size: 4vw;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CECECE;
+    height: 10vw;
+    font-size: 2vw;
+}
+
+.boxgrey {
+    overflow: hidden;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    width: 100%;
+    background-color: #CECECE;
+    flex-direction: column;
+    align-items: center;
+    color: #2C2C2C;
+    padding: 4% 0 3%;
+    background-color: opacity: 0.5;
+}
+
+.boxgrey h2 {
+    font-size: 3vw;
+    margin: 0;
+}
+
+.boxgrey p {
+    font-size: 2vw;
+    margin: 0;
+}
+
+
+#content2 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+#content2 .box {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    border-top: solid 0.25vw #353535;
+    box-shadow: 0vw 0.2vw 0.2vw 0.3vw #E9E9E9;
+    padding: 3%;
+    border-radius: 0.5%;
+}
+
+#content2 .box h3 {
+    color: #82A0C2;
+    font-size: 2.3vw;
+    font-weight: 100;
+    margin: 0;
+}
+
+#content2 .box h4 {
+    font-size: 1.6vw;
+    font-weight: 100;
+    margin: 1% 0 3%;
+}
+
+#content2 .box span {
+    color: #8FD2D4;
+    font-weight: 900;
+    padding-right: 2%;
+}
+
+#content2 .box p {
+    font-size: 1.6vw;
+    font-weight: 100;
+    margin: 3% 0;
+}
+
+#content2 .box hr {
+    width: 100%;
+    margin-left: 0;
+    border-top: 0.2vw solid #FBFBFB;
+}
+
+#content2 .box h5 {
+    font-size: 1.6vw;
+    margin: 5% 0 0;
+}
+
+#content2 .box h6 {
+    font-size: 1.6vw;
+    margin: 0;
+    font-weight: 100;
+    color: #BFAA9B;
+}
+
+@media screen and (max-width: 480px) {
+    #content2{
+    display: flex;
+    flex-direction: column;
+    }
+    .two{
+        margin-top: 2%;
+}
+.box {
+    margin-left: 28%; 
+}
+ }
+ @media screen and (min-width: 481px) and (max-width: 1200px) {
+    #content2{
+    display: flex;
+    flex-direction: column;
+
+ }
+    .two{
+    margin-top:2% ;
+
+}
+.box {
+       margin-left: 28%; 
+}
+}
